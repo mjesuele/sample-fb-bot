@@ -2,14 +2,14 @@
   "name": "sample-fb-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "gulpfile.js",
+  "main": "index.js",
   "dependencies": {
     "botbuilder": "^3.7.0",
-    "ngrok": "^2.2.6",
     "restify": "^4.3.0"
   },
   "devDependencies": {},
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
